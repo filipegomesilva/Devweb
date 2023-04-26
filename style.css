@@ -1,55 +1,81 @@
-#menu {
-
+.nave {
+    text-align: center;
     font-family: monospace;
 }
 
-h1 {
-    color: brown;
-    padding: 0%;
+#titulo {
+    color: rgb(80, 34, 34);
     text-align: center;
-    background-color: bisque;
+
 }
 
 body {
-
     font-family: monospace;
 }
 
-
-.rosa {
-
-    color: gray;
+.esquerda {
+    text-align: left;
+    background-color: peachpuff;
+    float: left;
+    height: 600px;
+    width: 20%;
 }
 
-.itens {
+.direita {
+    text-align: left;
+    background-color: peachpuff;
+    float: left;
+    height: 600px;
+    width: 20%;
 
+}
+
+#conteiner {
+    background-color: brown;
+}
+
+h3 {
+    text-align: center;
+}
+
+main {
+    width: 60%;
+    height: 600px;
+    background-color: rgb(168, 133, 103);
+    text-align: justify;
+    float: left;
+
+
+}
+
+.content {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav {
+
+    background-color: rgb(175, 83, 83);
+    padding: 14px 16px;
+}
+
+nav a {
+    color: rgb(31, 4, 4);
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    background-color: antiquewhite;
     color: brown;
-    font-family: monospace;
-    font-weight: 500;
-    font-size: 10%;
+    font-weight: bold;
+    border-radius: 0.2cm;
 }
 
-table {
-    width: 50%;
-    border-color: rgb(221, 143, 26);
-    border-style: dashed;
-}
-
-td {
-    border-color: rgb(122, 80, 17);
-    border-style: solid;
-
-}
-
-.thead {
-    font-style: italic;
-    font-size: larger;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: bisque;
-    color: rgb(22, 18, 7);
-
-}
-
-tfoot {
-    background-color: #972b2b79;
+footer {
+    float: left;
+    width: 100%;
+    background-color: rgb(175, 83, 83);
+    text-align: center;
 }
