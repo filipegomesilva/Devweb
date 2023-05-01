@@ -3,61 +3,58 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bootstrap\css\bootstrap.min.css" rel="stylesheet">
     <title>PokéTroca</title>
     <link rel="icon" type="image/x-icon"
         href="https://i.pinimg.com/originals/05/8c/c1/058cc1913cf7d2bd93d6153ad22205f5.png" />
-    <link rel="stylesheet" href="style.css">
-
 </head>
 
-<body>
-    <header>
-
-        <nav class="nave">
-            <h1 id="titulo" class="vermelho"> PokéTroca </h1>
-            <a href="#home">Home</a>
-            <a href="#catalogo">Catálogo Pokémon</a>
-            <a href="#venda">Vender Pokémon</a>
-            <a href="#cadastro">Cadastro de Pokémon</a>
-            <a href="#espaco_treinador">Espaço do Treinador</a>
+<body id="home" style="padding:16px;" class="container-fluid">
+    <header class="row bg-dark rounded">
+        <h1 style="padding-left: 10px;" id=" titulo" class="text-danger col-2">Poké<span
+                class="text-warning">Troca</span>
+        </h1>
+        <nav style="padding: 10px;" class="justify-text-center col-10 navbar">
+            <a href="index.html" class="btn text-light text-uppercase">Home</a>
+            <a href="catalogo.html" class="text-uppercase btn text-light">Catálogo Pokémon</a>
+            <a href="#venda_troca" class="text-uppercase btn text-light">Vender/trocar</a>
+            <a href="#cadastro" class="text-uppercase btn text-light">Cadastrar Pokémon</a>
+            <a href="#espaco_treinador" class="text-uppercase btn text-light">Espaço do Treinador</a>
         </nav>
     </header>
-
-
-    <aside class="esquerda">
-        <h3>Lateral</h3>
-    </aside>
-
-    <main>
-        <h3>Conteúdo</h3>
-        <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mi velit, rhoncus quis
-            est
-            eget, finibus
-            ultricies
-            urna. Nullam eget velit non velit aliquam suscipit eget non mi. Mauris convallis accumsan venenatis.
-            Morbi
-            fermentum
-            dolor ac turpis mattis rhoncus. Cras urna turpis, finibus nec fermentum nec, accumsan quis metus.
-            Integer
-            fringilla
-            semper quam, a tristique risus varius et. Morbi ac est eget libero rutrum aliquet eget sit amet arcu.
-
-            Integer erat erat, fermentum porta velit et, pretium condimentum dolor. Integer non orci turpis. Nam
-            blandit
-            ac lacus
-            eget posuere. Nunc finibus urna feugiat tortor porta laoreet. Donec viverra mollis nisi in bibendum.
-            Curabitur bibendum
-            mauris nunc, in egestas justo ultricies in. Donec non risus tellus. Suspendisse eget ligula vitae sem
-            pharetra
-            convallis. Quisque ultricies eget nisl vel rhoncus.</p>
-    </main>
-    <aside class="direita">
-        <h3>Lateral direita</h3>
-    </aside>
-    <footer class="rodape">
-        Rodapé
-    </footer>
-
+    <div style="padding:16px;" class="row">
+        <div class="col-2 text-justify">
+            <h3>Lateral</h3> <button class="btn btn-primary">Dark</button>
+        </div>
+        <div class="col-8">
+            <h3>Conteúdo</h3>
+            <h4 id="nome">Olá,</h4>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.Integer mi velit, rhoncus quis est eget, finibus
+                ultricies urna. Nullam eget velit non velit aliquam suscipit eget non mi. Mauris convallis accumsan
+                venenatis. Morbi fermentum dolor acturpis mattis rhoncus. Cras urna turpis, finibus nec fermentum nec,
+                accumsan quis metus. Integer fringilla semper quam, a tristique risus varius et. Morbi ac est eget
+                libero
+                rutrum aliquet eget sit amet arcu. Integer eraterat, fermentum porta velit et, pretium condimentum
+                dolor.
+                Integer non orci turpis. Nam blandit ac lacus eget posuere. Nunc finibus urna feugiat tortor porta
+                laoreet.
+                Donec viverra mollis nisi in bibendum. Curabitur bibendum mauris nunc, in egestas justo ultricies in.
+                Donec
+                non risus tellus. Suspendisse eget ligula vitae sem pharetraconvallis. Quisque ultricies eget nislvel
+                rhoncus.</p>
+        </div>
+        <div class="col-2 text-right">
+            <h3>Lateral direita</h3>
+        </div>
+        <footer class="fixed-bottom text-center text-light bg-dark footer col-12"> Rodapé </footer>
+    </div>
+    <script src="app.js"></script> <noscript>You need to enable JavaScript to view the full site.</noscript>
+    <script src="bootstrap\js\bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+        integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+        crossorigin="anonymous"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 
 </html>
